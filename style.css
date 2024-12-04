@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: row;
+	gap: 200px;
+	margin-top: 50px;
+}
+
+.bbox1 {
+	padding: 100px;
+	width: 40%;
+}
+
+h1 {
+	font-family: "Bungee", sans-serif;
+	font-weight: 900;
+	font-size: 300%;
+}
+
+p {
+	font-family: "Baloo Thambi 2", system-ui;
+	font-optical-sizing: auto;
+}
+
+.pre1 {
+	background-color: #e1f6ff;
+	border: none;
+	padding: 20px;
+	border-radius: 0px 18px 0px 18px;
+	color: #162542;
+	font-weight: 900;
+}
+
+.pre2 {
+	background-color: #2852a1;
+	border: none;
+	padding: 20px;
+	border-radius: 0px 18px 0px 18px;
+	color: #ffffff;
+	font-weight: 900;
+}
+
+.pre3 {
+	border: none;
+	background-color: white;
+	color: #7b8bad;
+	font-weight: 900;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.bbox2 {
+	padding: 100px;
+	width: 30%;
+}
+
+h2 {
+	font-family: "Bungee", sans-serif;
+	font-weight: 900;
+	font-size: 200%;
+	margin-bottom: 20px;
+}
+
+.box {
+	display: flex;
+}
+
+.bbbox {
+	display: flex;
+}
